@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Nashville Community Garden Map</name>
+    <description>Map of gardens participating in the 2010 Community Food Advocates Community Garden Tour. Saturday, September 25th. </description>
+    <Style id="icon-22-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-22-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/22-blue-dot.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-22">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-22-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-22-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>CE McGruder Community Garden</name>
+        <description><![CDATA[Leslie Speller-Henderson<br>lspeller@tnstate.edu,  or 615 254 7277<br><br>Purpose:  The garden is a food security and nutrition initiative to bring fresh, healthy vegetables to North Nashville.  <br><br>Established:  2008<br><br>Operated by: Leslie Speller-Henderson runs the garden with the help of TSU Cooperative Extension School, Rev.  Beech, women from the neighborhood, and children from the community resource center.<br><br>Volunteers Needed?  Yes. <br><br>Other Support Needed?  Bags of leaves to make leaf mulch, straw, a sign for the garden, benches and fruit trees for shade.<br><br>Unique Aspect of Garden:  We are a community-based initiative that is probably the only community garden in our area. <br><br>DIRECTIONS<br>From the corner of 18th Ave., N. and Charlotte Pike, go north on D.B. Todd Blvd. Follow it about .8 mile and turn left at Buchanan St.  In about 3 blocks, turn right off Buchanan onto to 25th Ave., North. The CE McGruder Center is on the left at 2013 25th Ave. North. The garden is in back of the McGruder Center.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.81757,36.182935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>EarthMatters Tennessee/George W. Carver Food Park</name>
+        <description><![CDATA[Dr. George W. Carver Food Park <br>1101 Gale Lane, Nashville, TN  37204<br>Contact:  Sizwe Herring, 615 252-6953<br>www.carverfoodpark.com<br><br>Purpose: We are a dynamic group of environmental educators dedicated <br>to growing healthier neighborhoods through GRACE – Gardening, Recycling, <br>Activism, Composting and Education.<br><br>Founded:  1996<br><br>Operated by:  EarthMatters Network Tennessee<br><br>Volunteers Needed?  Yes. Come by the Park any Saturday. <br><br>Other Support Needed?  Yes. Every fall we collect pumpkins and leaves for composting.  <br><br>Unique Aspect of Garden:  17 years (5 years with the Green Neighborhood’s Project) <br>producing the annual city-wide Smashing Pumpkins/Leaf Lift where thousands of bags of Fall leaves are rescued and released to form rich, organic compost.<br><br>Directions: <br>Coming from downtown on 8th Ave. South, turn left onto Wedgewood Ave. Follow Wedgewood to 12th Ave., South and turn left.   After about 1.3 miles, turn left onto Gale Lane.  Lealand Lane is the next cross street and the garden is at the corner of Gale and Lealand with the entrance on Lealand.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.787239,36.116683,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Edgehill Community Garden </name>
+        <description><![CDATA[Edgehill Community Gardens<br>14th Ave. S & Horton Ave. 37212<br>Contact: Brenda Morrow, 615 256-4617 or edgehill2@bellsouth.net<br><br>Purpose: To provide garden space for residents in the community, produce for seniors and single parents, and training opportunities for Edgehill youth and adults.<br><br>Founded: 1993<br><br>Operated by:  Edgehill Family Resource Center with administrative support from O.N.E. (Organized Neighbors of Edgehill). <br><br>Volunteers Needed?  Yes.<br><br>Other Support Needed?  We need picnic tables, benches, compost and fertilizer. <br><br>Unique Aspect of Garden:  The garden was originally established to see how children would respond to <br>growing their own food. It has grown into something that provides produce for local residents and on-site, in-the-garden training opportunities for youth and adults through TSU’s cooperative extension program. We also take the opportunity to hold a harvest celebration in the fall. The garden has become family.<br><br>DIRECTIONS<br>Coming from downtown on 8th Ave., S. go about 1 mile and turn right onto Edgehill Ave.  Turn left at 12th Ave., S. and after about 500 ft.,  left onto Horton St. and then left onto 13th Ave., South. The garden is about a block down on the left.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.788151,36.139608,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Napier School Garden</name>
+        <description><![CDATA[Jane Gough<br>(615) 291-6400, x123.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.756737,36.150074,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Nashville Urban Harvest</name>
+        <description><![CDATA[Nashville Urban Harvest<br>1211 57th Ave North, 37209 <br>(behind the Standard Motor building)<br>Contact: Sarah Bellos 615 306 3154 or  sarah@nashvilleurbanharvest.org<br>www.nashvilleurbanharvest.org<br><br>Parking: You may park along the alley, or along the street in front of Standard Motor Parts.<br><br>Established:  2006<br><br>Mission: We are a community group working to build a sustainable food system in Nashville, Tennessee, and environs. We seek ways to help align public action with public values: educating for food justice, creating markets to support local producers, producing food on urban green space, all with an eye toward sustainable, local, community-supported agriculture and action.<br>Partners and Sponsors:  A volunteer-run organization affiliated with the Food Security Partners of Middle Tennessee. We have also work closely with several other local organizations and businesses.<br><br>Need Volunteers: Yes. We are generally ready to orient new volunteers on Saturday mornings. <br><br>Other needs: Yes. Please our website or contact us.  <br><br>Unique Aspects:  Nashville Urban Harvest brings together the efforts of several organizations and numerous dedicated volunteers, combining efforts to work for food security and sustainability in creative, locally-oriented ways. We are excited to be helping return agriculture to urban areas and assisting others in doing so!<br><br>DIRECTIONS<br>Heading West on Charlotte Ave, you will take a right onto 51st Ave; travel approximately 1.5 miles and take a left onto Tennessee Ave. You will then travel approximately 10 blocks and take a right onto 57th Ave. You will see the Standard Motor building ahead on your left after turning right. Please park on 57th Ave. and walk behind the Standard Motor parts building. The NUH community farm is right inside the fence off the alley way.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.858726,36.158182,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Park Avenue Community Garden</name>
+        <description><![CDATA[Carolyn James<br>(615) 298-3710]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.829693,36.151356,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shelby Park Discovery Garden</name>
+        <description><![CDATA[GROW Nashville<br>Shelby Park Discovery Garden<br>401 S. 20th St. Nashville, TN  37206 <br>Contact:  Christie Wiser, 615 862-8539  or Christie.Wiser@nashville.gov<br><br>Purpose: To provide a way for neighbors in urban Nashville to work outside together and grow healthy food.  Community gardens build friendships and bring fresh food to the city. <br><br>Founded:  2007<br><br>Operated by:  GROW Nashville, a project of Metro Parks and Recreation<br><br>Volunteers Needed?  Yes. <br><br>Other Support Needed?  Yes. <br><br>Unique Aspects:  We are located adjacent to an inner city residential neighborhood, a large Metro Park, and a community center. <br><br>DIRECTIONS<br>This garden is in East Nashville. From the intersection of 1st Ave., South and Broadway (downtown near the Cumberland River), turn right onto 1st Ave., South. Follow it up the hill and turn left onto the Vietnam Veteran’s Bridge to cross the river. This will take you straight onto Shelby Ave, which you should follow all the way to 20th St. (20 blocks) Turn left at 20th and you will immediately see the Shelby Park Community Center. The garden is in back of the Center.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.734807,36.170793,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Watkins Park Community Garden</name>
+        <description><![CDATA[616 17th Avenue North<br>(615) 862-8468]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.79976,36.161889,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wedgewood Urban Gardens</name>
+        <description><![CDATA[Gigi Gaskins<br>(615) 491-9009]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.77002,36.133161,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>McFerrin Park Community Garden</name>
+        <description><![CDATA[225 Berry  St. Nashville TN  37207 (behind the community center; enter through the gateon Meridian St.)<br>http://nashvegi.wordpress.com<br>Parking: on Berry St., not on Meridian<br>Established:  May 2009<br>Mission/Purpose:  The Vanderbilt Educational Garden Initiative(VEGI) represents the desire<br>of the Vanderbilt School ofMedicine student body to combat the growing obesity epidemic and lack of accessto nutritious foods in our communities. A wholesome diet is a crucial part ofphysical and mental wellbeing, yet many people lack either the resources or theknowledge necessary to make healthy food choices.<br>VEGI has partnered with the McFerrin Park community to establish ahealth-oriented community garden that they maintain jointly. The garden servesas a "learning laboratory" for hands-on education and access tohealth and nutritional information for people of all ages. <br>Operated by:  McFerrin Park community membersand VEGI members.<br>Need volunteers?  We are always excited to have volunteers helpus.<br>Other needs?Railroad ties and more basic equipment (shovels, pick axe, strong trowels, soilfor next year)<br>Unique aspects:  The Vanderbilt Medical School-communitypartnership allows us to bring in an extra emphasis on health as well aseducation<br><br>DIRECTIONS<br>This garden is in East Nashville. From the corner of 1st Ave. and Broadway(downtown next to the Cumberland River), turn left onto 1st. Followit to the top of the hill and go right onto the bridge across the Cumberland River. You will be on Woodland St. Turn leftat 1st St.and in about a mile slightly left onto Dickerson Pike. In about 1 block, turnright onto Grace St.,right onto Meridianand left onto Berry St. The garden is behind the community center, which youwill see to your left.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.769732,36.181289,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Old Hickory Village Community Garden</name>
+        <description><![CDATA[1105 Hadley  Ave, Old Hickory37138<br>Contact: Tina Waller, 615598-4453 or waller.tina@gmail.com (mailto:waller.tina@gmail.com)<br> <br> Facebook(Old Hickory Village Community Garden):http://www.facebook.com/event.php?eid=89292986273#/group.php?gid=134578340645<br> <br>Established:  March 2009<br> <br>Mission:  To allow families to grow their own food,provide for families in need through the Christian Community Outreach Center,educate families and children about growing food, and encouragechildren/teenagers to engage in a pastime they can be proud of.<br> <br>Operated by:  FirstBaptist ChurchOld Hickory issponsoring the garden as an outreach to the neighborhood. The church hasdonated the use of the land in the center of Old Hickory Village, a prime locationfor gardening.<br> <br>Need Volunteers:Yes. <br> <br>Other needs:We could use help with putting up a fence around our garden plots. In addition,we are collecting large pots (15inches or greater preferred) to make tomatoplanters for folks who live in the Old Hickory Towers.  If you would like to donate pots, or sponsora planter, please email us.<br>   <br>Unique Aspects:  Old Hickory Village Community Gardenis out to improve the community, one home-grown tomato at a time. The garden ismade up of neighborhood residents who would like to try their hand at growingtheir own food this year. Some are learning to garden for the first time.Others are interested because they do not have a suitable place to garden, andthe community garden location will provide a no-cost sunny spot that they needfor their family to grow fresh vegetables.<br>DIRECTIONS<br>This garden is 13 miles northeastof downtown in the historic Old Hickory Village.Take I-65 north and exit onto Old  Hickory Blvd. Go right off the exit ramp andfollow Old Hickory Blvdall the way until it leads you across a bridge (over the Cumberland River).  Soon after, theboulevard’s name changes to Robinson Rd. Follow Robinson about 1.5 miles andturn left onto Hadley Ave.The garden is on the left about 6 blocks up.]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <Point>
+          <coordinates>
+            -86.647183,36.259125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Word of Life Christian Center International Garden</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/UP9w78koVRrPga8bmUxsoTGo7mXjWBesMh2aOhl2E8HKfVCTnMNrlAPMzXXaP_V09jrQoHLH5l-PjOtAET0wmwHjxhz4QLEIw8R6yzAv5ZZfuG8kU4ZGLP_BzHkclUx7CIrytXj7u4c" height="200" width="auto" /><br><br>Word of Life Christian Center International Garden "The Garden of Eatin'"<br> <br>Contact: Robert Taylor<br>robtay77@hotmail.com (mailto:robtay77@hotmail.com), <br>615-876-3086 or 301-613-5234<br><br>Purpose: To help provided healthier food choices for our community while creating a tangible example of the Biblical principal of Seed time and Harvest. <br><br>Established: Summer 2010<br><br>Operated by: The following members of Word of Life Christian Center International: Leah Davidson, Marian Okai-Tetteh, Robert Taylor, Willamina Davis and many others.<br><br>Volunteers Needed? Yes. <br><br>Other Support Needed? Top soil, tiller, seeds, wood stakes and ties and good ideas.<br><br>Unique Aspect of Garden: Created to bring multiple generations together, young and not as young, to work on a project that will benefit all age groups and the community as a whole]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/UP9w78koVRrPga8bmUxsoTGo7mXjWBesMh2aOhl2E8HKfVCTnMNrlAPMzXXaP_V09jrQoHLH5l-PjOtAET0wmwHjxhz4QLEIw8R6yzAv5ZZfuG8kU4ZGLP_BzHkclUx7CIrytXj7u4c</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -86.838071,36.214406,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>McCoy Memorial Garden</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/EA15CvkTrbjkgCSK79ZtkEGdM-oU0Ip2xppSZJUKQMe9Khtq1TZ6hhWA0wUOJ-43NbXkwlAogCFoTledGkM5vRA1FwgH9ywy2h8Z7BxtWtcx92U--jRx0ZDkTt-Q4SIX1OAamoh9Ts0" height="200" width="auto" /><br><br>807 Main Street, Nashville, TN]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/EA15CvkTrbjkgCSK79ZtkEGdM-oU0Ip2xppSZJUKQMe9Khtq1TZ6hhWA0wUOJ-43NbXkwlAogCFoTledGkM5vRA1FwgH9ywy2h8Z7BxtWtcx92U--jRx0ZDkTt-Q4SIX1OAamoh9Ts0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -86.758372,36.175868,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Inglewood church of the Nazarene</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/proxy/I_4V8TvCEZNwp2lNQoJo_sB3huj_xvxEpCmTBHHKpvQ7r7TfxKwt7f7wlz5K3OV5CaTXb86yMIpiABHErId7lhU4Jgi8PtzTwkUUKZA7Xq_MoxpKN_EUCNHMkCm0b2CMJd0GQNiBCRY" height="200" width="auto" /><br><br>3936 Gallatin Rd. <br>Nashville, TN 37206<br><br><br>House on Sunnymeade (Parsonage)]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/proxy/I_4V8TvCEZNwp2lNQoJo_sB3huj_xvxEpCmTBHHKpvQ7r7TfxKwt7f7wlz5K3OV5CaTXb86yMIpiABHErId7lhU4Jgi8PtzTwkUUKZA7Xq_MoxpKN_EUCNHMkCm0b2CMJd0GQNiBCRY</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -86.742621,36.196003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Glencliff High School Garden</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/proxy/6hXaaiQ3Egadu2fQFE8Q7gb5zk8f4CLLKROGEMie28B41JNX-TfRvrwyNQUqn8BNpQBGRL6kkXpfUr2TNQD2Bf3HL6wfnH3SMjUwvs-sHYbqgwyjySGSj5P78xrQ7iVHaWThTa-Gdts" height="200" width="auto" /><br><br>Nashville, TN 37211]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/proxy/6hXaaiQ3Egadu2fQFE8Q7gb5zk8f4CLLKROGEMie28B41JNX-TfRvrwyNQUqn8BNpQBGRL6kkXpfUr2TNQD2Bf3HL6wfnH3SMjUwvs-sHYbqgwyjySGSj5P78xrQ7iVHaWThTa-Gdts</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -86.726616,36.102657,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hope Community Gardens</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proxy/a2f6WImgMWt2M9HOJpYF0zC3l61EimVWcklGL3652x9x_zjEg1WfsTBA705qpse1x6FRxBehQmsZNHReXrPPwkQID6Cc9iRMhVbaBWodyvjPWxgdTvChGsxV1JZ7ji3UZDaYhA3AZ3M" height="200" width="auto" /><br><br>933 10th Ave N<br>Nashville, TN 37208]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proxy/a2f6WImgMWt2M9HOJpYF0zC3l61EimVWcklGL3652x9x_zjEg1WfsTBA705qpse1x6FRxBehQmsZNHReXrPPwkQID6Cc9iRMhVbaBWodyvjPWxgdTvChGsxV1JZ7ji3UZDaYhA3AZ3M</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -86.79375,36.170485,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chestnut Hill Community Garden</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/proxy/zjaMX7qPf6EbuPEa_nnTqZmpjeDvvmpLJEDBs5u-aeMp-bQ_UOfredWg6Ugn2PNyH8-IjCTpdzyByH2JlmqCMjcHS6MQsLmmslUNtnEOm_XLvige_Bczu6oRtnz7ana9O5nePzL9id8" height="200" width="auto" /><br><br>John Munn<br>615-738-7342<br><br>Nashville, TN 37210]]></description>
+        <styleUrl>#icon-22</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/proxy/zjaMX7qPf6EbuPEa_nnTqZmpjeDvvmpLJEDBs5u-aeMp-bQ_UOfredWg6Ugn2PNyH8-IjCTpdzyByH2JlmqCMjcHS6MQsLmmslUNtnEOm_XLvige_Bczu6oRtnz7ana9O5nePzL9id8</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -86.763351,36.146353,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
