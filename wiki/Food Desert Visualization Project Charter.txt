@@ -1,0 +1,106 @@
+﻿Project Definition and Scope
+Provide a visual representation of the number of groceries in various areas of Davidson County, TN, along with an overlaid visual representation of income levels in various areas of Davidson County, TN.
+Goals, In Other Words, So What?
+* Empower policy makers to allocate resources
+* Empower non-profits to apply for grants
+* Empower citizens to ameliorate food insecurity.
+* Empower business to offer food
+* Empower further research and development
+* Empower citizens to request assistance[a][b]
+General Requirements
+* Data
+   * Food Desert classification
+      * See CPS Food Security variable definitions https://docs.google.com/spreadsheets/d/1HIipblb2gqdqAL_HY3J_bJijA2CpBzOYoT0Ct9xxpk8/edit?usp=sharing
+   * Food Source Information
+      * Food Source parent class  will include the following information:
+         * Name of establishment
+         * Address
+         * Year established (or, if established pre-2010, that fact as well)
+         * Gross sales per year
+         * Food sales as a percentage of gross sales
+         * Local vs chain
+      * Grocery Stores
+         * The grocery data type will be a single instance type inheriting from the “All Food Sources” parent class.. For example, each Kroger store location will be a separate data object. Grocery Store instances will include additional attributes:
+            * Type of store, e.g. big-box, specialty, convenience store, general store
+            * Accept WIC/food stamps
+      * Restaurants
+         * The restaurant data type is also a single instance type inheriting from the “All Food Sources” parent class. Restaurant instances will include additional attributes:
+            *  type of food service, e.g. fast food, dine-in, take-out, cafeteria, salad bar, all-you-can-eat, …
+            * Menu, e.g. sandwiches, mexican, meat-and-three, ...
+   * Income Level Information
+      * The income level data type will be based on census tract, as available at https://www2.census.gov/geo/maps/dc10map/tract/st47_tn/c47037_davidson/DC10CT_C47037_CT2MS.txt
+      * The income level data type will include the following information:
+         * Year of information
+         * Percentage population with low vs no vs affluent (i.e., not low or no classification) income 
+         * Percentage of population with fixed vs variable income
+   * Population Information
+      * Based on census tract
+      * Typical demographic information to include:
+         * Age distribution
+         * Race distribution
+         * Education levels
+         * Disability levels
+         * SNAP recipients
+         * Occupations
+         * Children
+         * Home type and size
+         * Vehicle access
+         * Marriage status
+         * etc[c]
+
+
+* Interface
+   * The interface to data will primarily be a map data visualization
+   * The map will support filtering by grocery and income level characteristics
+   * The interface will support a persistent user experience (cookies, sharing of URL, etc).
+   * The interface will support the entry of an address to determine census tract
+Minimal Viable Product Requirements
+1. Interface General Requirements as defined above
+2. Food Source and Grocery Store Information
+3. Income Level Information
+Constraints
+* The definitions for grocery and income level are based primarily, but not immodifiably, on the USDA definitions at https://www.ers.usda.gov/data-products/food-access-research-atlas/documentation/#definitions
+* The years in question include 2010-today
+   * Data from before 2010 will be considered a single archive and not able to be filtered individually by year
+* The data will only focus on Davidson County, TN.
+
+
+This is version one of this project, future versions may have relaxed constraints and/or additional data requirements.
+Planning and Engineering
+Communication and Work Tracking
+* Slack for communication, please join the #food-desert channel in the Code for Nashville slack instance at https://nashville-brigade-slackin.herokuapp.com/ or nashvillebrigade.slack.com
+* The Trello will be used for work generation and tracking: https://trello.com/b/Q5Zx2bqh/food-desert-code-for-nashville
+* Code will be stored in the (code-for-nashville?) github organization, repository TBD. Currently in https://github.com/wduffee/food-desert-data-project.
+Trello Board Organization
+* What is a Card?
+   * Cards are used to represent tasks and ideas. A card can be something that needs to get done. (from https://trello.com/en-US/guide/trello-101)
+
+
+* Columns (aka Lists): Used to classify Cards by status
+   * Backlog: Cards that have been postponed 
+   * New: All cards start in New
+   * Accepted: Cards that are ready to be worked, that is each card has a well understood purpose and outcome
+   * In Progress: Cards that are being worked
+   * Ready for Review: Cards that are ready for review by the team
+   * Done: Cards that are completed based on their original purpose/outcome.
+
+
+* Labels: Used to classify Cards by purpose
+   * Data Gathering: Card for producing data that can be used for the implementation of user stories.
+   * Definition: Card to define a data object, part of a data set, function, etc.
+   * Discovery: Card to research necessary information, such as which tool to use for a mapping engine.
+   * Documentation: Card to document information needed for the project’s success.
+   * User Story: Card to help define the outcomes of the project’s goals and make sure they are met.
+Roles
+* This project is an open project where all are welcome to contribute their skills and passion. 
+* However, to facilitate organizational best practices, the following roles are assigned:
+   * Product Owner: Asia Carter
+   * Program Manager: Wesley Duffee-Braun
+
+
+[a]I'm interested in breaking out these into separate projects. I feel like adding all of this to this one starting project is going to try and boil the ocean.
+[b]To be read listening to the Miles Davis composition of the same name: So What? https://goo.gl/TYLV2m
+[c]The Income Level and Population Information - how can we simplify these to be part of the same schema?
+
+
+Is the Income Level information one subset of demographic information from the Population Information schema?
